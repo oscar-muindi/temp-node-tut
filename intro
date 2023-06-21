@@ -1,0 +1,47 @@
+//first line
+const amount = 13;
+
+if (amount < 10) {
+  console.log("a small number");
+} else {
+  console.log("a large number");
+}
+
+console.log(`hey, this is my first node app!!!`);
+
+//tut-2
+//GLOBALS - NO WINDOW!
+// __dirname - path to current directory
+// __filename -file name
+// require - function to use modules(CommonJS)
+// module - info about current module (file)
+// process - info about env where the program is being executed
+//console.log();
+//setInterval(() => {
+// console.log("hey there");
+//}, 1000);
+
+//tut-3
+//const john = "John";
+//const peter = "Peter";
+
+//const sayHello = (name) => {
+// console.log(`Hello there ${name}`);
+//};
+
+//sayHello("Susan");
+//sayHello(john);
+//sayHello(peter);
+
+//lsn 7
+
+//const names = require("./name");
+//const sayHi = require("./hi");
+//const new_file = require("./new-file");
+//const newest = require(".///newest");
+//require("./seven");
+
+//console.log(names);
+
+//sayHi("susan");
+//sayHi(names.john);
